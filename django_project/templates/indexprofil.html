@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okhi Sahrul Barkah</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    {%load static%}
+    <link rel="stylesheet" href="{%static 'style.css'%}">
+
+    <!-- Icon Website-->
+    <link href="image/Okhi.png" rel="shortcut icon">
+
+</head>
+<body>
+
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div class="user">
+        {%load static%}      
+        <img src="{%static 'Okhi.png'%}" alt="">
+        <h3 class="name">Okhi<span> Sahrul</span> Barkah</h3>
+        <p class="post">Mahasiswa <span>Teknik Informatika</span></p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Cek Layak Pinjam</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#experience">experience</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+<main>
+    
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <h3>Hallo Semuanya !</h3>
+        <h1> Saya <span> Okhi Sahrul Barkah</span></h1>
+        <p>Seorang mahasiswa dari Universitas Trunojoyo Madura, memiliki hobi coding dan belajar bahasa pemograman baru, Bercita cita menjadi Full Stack Web developer</p>
+        <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <aside class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> me </h1>
+
+    <div class="row">
+
+        <div class="info">
+            <h3> <span> nama : </span> Okhi Sahrul Barkah </h3>
+            <h3> <span> NIM : </span> 210411100112 </h3>
+            <h3> <span> Status : </span> Single </h3>
+            <h3> <span> Pekerjaan : </span> Mahasiswa </h3>
+            <h3> <span> Bahasa : </span> Indonesia & English </h3>
+            <a href="cv.html"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+        </div>
+
+    </div>
+    </aside>
+
+
+    <!-- about aside ends -->
+
+    <!-- my experience-->
+
+    <section class="experience" id="experience">
+
+    <h1 class="heading"> my <span>experience</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2022</span>
+            <h3>Project Backend development at PT Investree Radhika Jaya</h3>
+            <p>Pernah menyelesaikan ProjectBased Test dari PT Investree Radhika Jaya </p>
+        </div>
+
+    </div>
+
+    </section>
+
+    <!-- experience section ends -->
+
+    <!-- portfolio-->
+
+    <section class="portfolio" id="portfolio">
+
+        <h1 class="heading"> my <span>portfolio</span> </h1>
+    
+        <div class="box-container">
+        <article>
+            <p>Saya Pernah menjuarai Lomba desain Ui/Ux </p>
+            <p>UKM Triple-C</p>
+            <p>UKM yang berada di Universitas Trunojoyo Madura</p>
+            <a href="sahrul.html"><button class="btn"> Lihat <i class="fas fa-download"></i> </button></a>
+        </article>
+
+    
+        </div>
+    
+    </section>
+    
+
+    <!-- portfolio section ends -->
+
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="{%static 'script.js'%}"></script>
+
+</main>
+
+<footer>
+    <p><a href="#" rel="nofollow">Okhi Sahrul Barkah | 2022</a></p>
+</footer>
+
+
+</body>
+</html>
